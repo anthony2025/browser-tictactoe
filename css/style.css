@@ -1,7 +1,10 @@
+/* blackish = #222 */
+/* gray = #555 */
+
 body {
   background: #222;
   color: white;
-  font-family: helvetica, sans-serif;
+  font-family: helvetica;
   text-align: center;
 }
 
