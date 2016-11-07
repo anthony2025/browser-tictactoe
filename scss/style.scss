@@ -1,0 +1,37 @@
+$bg-color: #222; // BLACKISH
+$light-color: #555; // GRAY
+
+body {
+  background: $bg-color;
+  color: white;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
+ 
+.turn div {
+  height: 15vmin;
+  width: 20vmin;
+  display:inline-block;
+  line-height: 15vmin;
+  white-space: nowrap;
+  margin: 2vmin;
+  background-color: $light-color;
+  font-size: 3vmin;
+  border: none;
+  border-radius: 5vmin;
+}
+
+.dialog {
+  font-size: 3.5vmin;
+  margin: 2.5vmin;
+}
+
+.board button {
+  height: 20vmin;
+  width: 20vmin;
+  margin: 1vmin;
+  background: $light-color;
+  border: none;
+  border-radius: 1vmin;
+  font-size: 4vmin;
+}
